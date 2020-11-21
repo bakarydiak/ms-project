@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  webapp:
+    image: badiakite/ms-security
+    build:
+      context: ./
+      dockerfile: Dockerfile
+
